@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <style>
+      .form-label {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 12pt;
+      }
+      .form-input {
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid rgb(200, 200, 200);
+        display: block;
+        padding: 5px;
+        margin-bottom: 15px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .form-button {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: rgb(73, 144, 73);
+        border: 1px solid rgb(200, 200, 200);
+        width: 300px;
+        padding: 10px;
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .form-checkbox {
+        margin-bottom: 15px;
+      }
+      .form-options {
+        background-color: rgb(232, 230, 230);
+        border: 1px inset rgb(231, 231, 231);
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .form-cancel {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: rgb(240, 32, 32);
+        border: 1px solid rgb(200, 200, 200);
+        border-radius: 5px;
+        width: 70px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .form-forgot {
+        float: right;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12pt;
+        margin-top: 25px;
+      }
+      #login-container,
+      form {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="login-container">
+      <img
+        src="./img2.jpg"
+        height="200px"
+        alt="Image"
+        style="border-radius: 175px"
+      />
+      <form action="">
+        <div>
+          <label for="username" class="form-label">Username</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter Username"
+            class="form-input"
+          />
+        </div>
+
+        <div>
+          <label for="password" class="form-label">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter Password"
+            class="form-input"
+          />
+        </div>
+
+        <input type="submit" value="Login" class="form-button" />
+
+        <div><input type="checkbox" class="form-checkbox" />Remember me</div>
+
+        <div class="form-options">
+          <input type="button" class="form-cancel" value="Cancel" />
+          <p class="form-forgot">Forgot <a href="">Password?</a></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

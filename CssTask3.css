@@ -1,0 +1,16 @@
+table {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 50%;
+}
+td,
+th {
+  border: 3px solid #ddd;
+  padding: 10px;
+}
+th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #069e66;
+  color: white;
+}

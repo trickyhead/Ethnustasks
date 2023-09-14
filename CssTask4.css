@@ -1,0 +1,39 @@
+#deck a {
+  position: absolute;
+  left: -100px;
+  transition: 1s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 10 5px 5px 0;
+}
+
+#deck a:hover {
+  left: 0;
+}
+
+#About {
+  top: 50px;
+  background-color: #04aa6d;
+  border-radius: 10px;
+}
+
+#Blog {
+  top: 120px;
+  background-color: #2196f3;
+  border-radius: 10px;
+}
+
+#Projects {
+  top: 190px;
+  background-color: #f44336;
+  border-radius: 10px;
+}
+
+#Contact {
+  top: 260px;
+  background-color: #555;
+  border-radius: 10px;
+}
